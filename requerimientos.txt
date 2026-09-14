@@ -1,0 +1,19 @@
+MD Browser
+
+General
+Desarrollar desde cero una aplicación que permita recorrer y visualizar todos los archivos markdown (.md) de una carpeta y sus subcarpetas
+
+Tiene que ser desde un browser (chrome por ejemplo)
+
+Se respeta la estructura jerárquica de las carpetas para el orden
+
+Dentro de una misma carpeta la secuencia esta dada por la fecha de creación
+
+2. Visualización y recorrido
+
+El browser debe mostrar un panel izquierdo con la estructura del arbol con las carpetas donde haya .md
+
+a la derecha debe mostrarse el contenido formateado en markdown
+
+un panel inferior debe permitir ir al siguiente o anterior de esa misma carpeta
+
