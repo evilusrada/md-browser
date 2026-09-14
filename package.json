@@ -6,15 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "next": "16.3.5",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
     "eslint": "^9",
-    "eslint-config-next": "16.3.5"
+    "eslint-config-next": "16.3.5",
+    "jest": "^30.5.1",
+    "jest-environment-jsdom": "^30.5.1"
   }
 }
